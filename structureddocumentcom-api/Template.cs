@@ -13,6 +13,8 @@ namespace com.structureddocument.api
         public string Description { get; set; }
         public string CultureInfoName { get; set; }
 
+        public Template() { }
+
         public Template(dynamic t)
         {
             this.Id = t.Id;
