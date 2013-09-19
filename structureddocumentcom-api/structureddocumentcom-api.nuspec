@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
+    <projectUrl>http://structureddocument.com/sdk</projectUrl>
+    <iconUrl>https://www.naseukoly.cz/media/5a5e879b-4cbb-4efb-8c5e-453b5984be3f</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright (C) 2013 NašeÚkoly.CZ s.r.o.</copyright>
+    <tags>StructuredDocumentCom</tags>
+  </metadata>
+</package>
