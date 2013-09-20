@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("structureddocumentcom-client")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("API Client for StructuredDocument.com")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("structureddocumentcom-client")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("NašeÚkoly.CZ s.r.o.")]
+[assembly: AssemblyProduct("StructuredDocument.com")]
+[assembly: AssemblyCopyright("Copyright ©  2013 NašeÚkoly.CZ s.r.o.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

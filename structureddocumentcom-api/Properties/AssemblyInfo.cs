@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("API for StructuredDocument.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NašeÚkoly.CZ s.r.o.")]
-[assembly: AssemblyProduct("structureddocumentcom-api")]
+[assembly: AssemblyProduct("StructuredDocument.com")]
 [assembly: AssemblyCopyright("Copyright ©  2013 NašeÚkoly.CZ s.r.o.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
