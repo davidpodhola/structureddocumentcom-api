@@ -30,19 +30,26 @@ namespace com.structureddocument.client
             return (Template[])jsonSerializer.ReadObject(stream);
         }
 
-        public async Task Add(Template expense)
+        public async Task Add(Template template)
         {
-            throw new NotImplementedException();
+            var jsonString = Serialize(template);
+            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            var result = await _client.PostAsync(ServiceUrl, content);
         }
 
         public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            var result = await _client.DeleteAsync(String.Format("{0}/{1}"
+               , ServiceUrl, id.ToString()));
         }
 
-        public async Task Update(Template expense)
+        public async Task Update(Template template)
         {
-            throw new NotImplementedException();
+            var jsonString = Serialize(template);
+            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            var result = await _client.PutAsync(String
+                .Format("{0}/{1}", ServiceUrl, template.Id), content);
+
         }
 
         private static DataContractJsonSerializer CreateDataContractJsonSerializer(Type type)
